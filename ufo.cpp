@@ -3,8 +3,8 @@
 
 int main() {
   greet();
-  std::string codeword = "codecademy";
-  std::string answer = "__________";
+  std::string codeword = "boston";
+  std::string answer = "______";
   int misses = 0;
   std::vector<char> incorrect;
   bool guess = false;
@@ -31,9 +31,8 @@ int main() {
       std::cout << "\nIncorrect! The tractor beam pulls the person in further.\n";
       incorrect.push_back(letter);
       misses++;
-}
+        }
 
-    
   }
 
 
