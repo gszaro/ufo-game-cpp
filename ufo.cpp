@@ -36,11 +36,11 @@ int main() {
   }
 
 
-  if(answer == codeword){
-    std::cout <<"Hooray! You saved the person and earned a medal of honor!\n";
-  }else {
-    std::cout << "Oh no! The UFO just flew away with another person!\n";
-  }
+//   if(answer == codeword){
+//     std::cout <<"Hooray! You saved the person and earned a medal of honor!\n";
+//   }else {
+//     std::cout << "Oh no! The UFO just flew away with another person!\n";
+//   }
 
 end_game(answer, codeword);
 }
